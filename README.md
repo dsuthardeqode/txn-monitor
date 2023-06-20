@@ -1,6 +1,6 @@
 # Transaction Monitor API
 
-Simple Ethereum transaction monitor for transaction status polling.
+Simple Ethereum transaction monitor for transaction status polling. Blockwise Ethereum transaction monitor API for React and Javascript applications to track transaction status in certain block number.
 
 ## Use case
 
