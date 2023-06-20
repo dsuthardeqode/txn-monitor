@@ -25,3 +25,13 @@ async function checkStatus() {
 }
 
 ```
+
+## APIs
+
+### checkTransactionStatus()
+
+| Paramter                | Type     | Description                                       |
+| ----------------------- | -------- | ------------------------------------------------- |
+| `txnHash`               | `string` | Transaction has to be tracked.                    |
+| `chainId`               | `number` | Transaction chain id                              |
+| `maxConfirmationBlocks` | `number` | It is option field, default value is `50` blocks. |

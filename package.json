@@ -1,12 +1,16 @@
 {
   "name": "@0xdeepak/transaction-monitor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c && cp README.md dist/",
     "start": "rollup -c && node dist/bundle.js",
     "publish": "rollup -c && cp README.md dist/ && cd dist && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsuthardeqode/txn-monitor.git"
   },
   "types": "./src/types.d.ts",
   "author": "Deepak Suthar",
