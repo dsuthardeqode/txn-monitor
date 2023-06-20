@@ -58,3 +58,5 @@ export async function checkTransactionStatus({
     }, 2000);
   });
 }
+
+export * from "./types";

@@ -5,7 +5,7 @@ const generatePackageJson = require("rollup-plugin-generate-package-json");
 module.exports = {
   input: "src/index.ts",
   output: {
-    file: "dist/bundle.js",
+    file: "dist/index.js",
     format: "cjs",
   },
   plugins: [
