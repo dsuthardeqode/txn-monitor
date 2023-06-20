@@ -13,7 +13,7 @@ const checkTransactionStatus = require("@0xdeepak/transaction-monitor")
 
 async function checkStatus() {
     // add your transaction hash
-    const res = await checkTransactionStatus({txnHash:'0x......',chainId:137})
+    const res = await checkTransactionStatus({txnHash:'0x......',chainId:137,maxConfirmationBlocks?:50})
 
     // res
 

@@ -26,7 +26,7 @@ async function pool(txHash: string, provider: Web3) {
   return response;
 }
 
-export async function checkTransactionStatus({
+export default async function checkTransactionStatus({
   chainId,
   txHash,
   maxConfirmationBlocks = 50,
@@ -58,5 +58,3 @@ export async function checkTransactionStatus({
     }, 2000);
   });
 }
-
-export * from "./types";
